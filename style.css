@@ -1,12 +1,12 @@
-*{
+* {
   box-sizing: border-box;
 }
-body{
+body {
   background-color: rgb(62, 189, 240);
   padding: 0;
   margin: 0;
 }
-.container{
+.container {
   background-color: rgb(217, 228, 222);
   border-radius: 5px;
   margin: 100px auto;
@@ -14,13 +14,13 @@ body{
   width: 500px;
   height: 300px;
 }
-.cal{
+.cal {
   overflow: hidden;
   display: block;
   width: 100%;
   margin: 0;
 }
-.cal h2{
+.cal h2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 26px;
   text-align: center;
@@ -28,14 +28,14 @@ body{
   padding: 5px;
   box-shadow: 0 1.5px #051737;
 }
-.block{
-  width:135px;
-  padding: 5px 20px 0px 5px ;
+.block {
+  width: 135px;
+  padding: 5px 20px 0px 5px;
   margin-left: 30px;
   display: inline-block;
   float: left;
 }
-.title{
+.title {
   font-size: 20px;
   font-weight: bold;
   text-align: center;
@@ -43,45 +43,35 @@ body{
   color: #1969b3;
   word-spacing: 2.7px;
 }
-input[type="text"]{
+input[type="text"] {
   width: 120px;
   margin: auto;
   padding: 12px;
   outline: none;
   align-items: center;
 }
-input[type=text]:focus{
-	background-color: #ffffff;
-	border: 2px solid rgb(8, 3, 47);
-	outline: none;
+input[type="text"]:focus {
+  background-color: #ffffff;
+  border: 2px solid rgb(8, 3, 47);
+  outline: none;
 }
-input[type=button]{
-	width: 150px;
-	margin-left: 35%; 
+input[type="button"] {
+  width: 150px;
+  margin-left: 35%;
   margin-top: 40px;
-	outline: none;
-	border: none;
-	border-radius: 2px;
-	background-color: #0761b6;
-	color: #ffffff;
-	padding: 10px;
-	text-align: center;
-	font-size: 16px;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  background-color: #0761b6;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
 }
-input[type=button]:hover{
-	background-color: #003669;
+input[type="button"]:hover {
+  background-color: #003669;
 }
-#age{
+#age {
   text-align: center;
   padding-top: 10px;
 }
-
-
-
-
-
-
-
-
-
-

@@ -1,81 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Age calculator</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<div class="container">
-  <form action="index.html" method="post">
-<div class="cal">
-  <h2>Age Calculator</h2>
-</div>
-<div class="block">
-  <p class="title">Date</p>
-  <input type="text" name="date" id="date" placeholder="dd" minlength="1" maxlength="2" required>
-</div>
-<div class="block">
-  <p class="title">Month</p>
-  <input type="text" name="month" id="month" placeholder="mm" minlength="1" maxlength="2" required>
-</div>
-<div class="block">
-  <p class="title">Year</p>
-  <input type="text" name="year" id="year" placeholder="yyyy" minlength="4" maxlength="4" required>
-</div>
-<div class="btn">
-  <input type="button" name="submit" value="submit" id="btn" onclick="age()">
-</div>
-  </form>
-  <div id="age"></div>
-</div>
-  <script src="index.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="index.html" method="post">
+        <div class="cal">
+          <h2>Age Calculator</h2>
+        </div>
+        <div class="block">
+          <p class="title">Date</p>
+          <input
+            type="text"
+            name="date"
+            id="date"
+            placeholder="dd"
+            minlength="1"
+            maxlength="2"
+            required
+          />
+        </div>
+        <div class="block">
+          <p class="title">Month</p>
+          <input
+            type="text"
+            name="month"
+            id="month"
+            placeholder="mm"
+            minlength="1"
+            maxlength="2"
+            required
+          />
+        </div>
+        <div class="block">
+          <p class="title">Year</p>
+          <input
+            type="text"
+            name="year"
+            id="year"
+            placeholder="yyyy"
+            minlength="4"
+            maxlength="4"
+            required
+          />
+        </div>
+        <div class="btn">
+          <input
+            type="button"
+            name="submit"
+            value="submit"
+            id="btn"
+            onclick="age()"
+          />
+        </div>
+      </form>
+      <div id="age"></div>
+    </div>
+    <script src="index.js"></script>
+  </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Age Calculator</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="container">
-    <h2>Age calculator</h2>
- <div class="inner">
-<select name="day" id="current">
-  
-</select>  
-  
-  <button id="btn" onclick="calculateAge()">calculate</button>
- </div>
- <div class="outer">
-  <p id="result"></p>
- </div>
-  </div>
-  <script src="index.js"></script>
-</body>
-</html> -->
